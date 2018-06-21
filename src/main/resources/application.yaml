@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  context-path: /flagpicker
+spring:
+  jpa:
+    database: mysql
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/flagpicker
+    username: root
+    password:
